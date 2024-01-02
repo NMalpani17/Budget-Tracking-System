@@ -1,0 +1,35 @@
+/* GroupDetail.css */
+
+.group-detail-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .group-detail-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .group-members-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .group-members-list-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .group-action-button {
+    background-color: #7286D3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,61 @@
+/* Your existing styles for the signup form */
+/* src/styles/SignupForm.css */
+
+.signup-container {
+  max-width: 500px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #7286D3; /* Adjust the background color as needed */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #445ab1; /* Adjust the hover background color as needed */
+}
+
+/* Additional styles for the two-column layout */
+.two-column-layout {
+  display: flex;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.left-column {
+  flex: 1;
+}
+
+.left-column img {
+  width: 100%; /* Make the image fill the entire width of the left column */
+  height: 100%; /* Make the image fill the entire height of the left column */
+  object-fit: cover;
+}
+
+.right-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

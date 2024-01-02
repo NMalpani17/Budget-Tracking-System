@@ -1,0 +1,109 @@
+/* CreateGroup.css */
+
+.container {
+    padding: 40px;
+    border: 1px solid rgb(183, 199, 225);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #efe3e3;
+    background-color: #DAF5FF; /* Background color for the container */
+  }
+  
+  .group-form {
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E9F7EF;
+  }
+  
+  .success-message h3 {
+    color: #4CAF50;
+  }
+
+  .group-cards {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: #777;
+    border: 1px sienna;
+    padding: 20px;
+  }
+  
+  .group-card-container {
+    width: 100%;
+ /* Fixed the missing 'solid' in the border property */
+    padding: 40px; /* Adjust padding as needed */
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    background-color:#B4E4FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow with a slight transparency */
+  }
+  
+
+  .group-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    background-color: #fff;
+    margin-right: 20px;
+  }
+  
+  .logout-container {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    padding-right: 10px;
+  }
+  
+  .logout-button {
+    text-decoration: none;
+    padding: 10px;
+    background-color:#7286D3;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Additional margin-top for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+  }
+
+
+  
+  .group-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px; /* Increased padding for a more spacious look */
+    width: 200px;
+    background-color: #fff;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .group-card:hover {
+    transform: scale(1.05); /* Zoom in a bit on hover */
+  }
+  
+  .group-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .group-card p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
+  /* Add more styles as needed */
+  
